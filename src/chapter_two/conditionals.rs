@@ -1,5 +1,3 @@
-use std::result;
-
 pub fn conditional_basics() {
     let status = "single";
 
