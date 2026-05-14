@@ -1,4 +1,5 @@
-mod chapter_three;
+mod chapter_four;
+// mod chapter_three;
 // mod chapter_two;
 // mod database;
 // mod medium;
@@ -8,5 +9,6 @@ fn main() {
     // chapter_two::conditionals::conditional_basics();
     // database::database::establish_db();
     // medium::functions::functions_basic();
-    chapter_three::data::datastructures_basic();
+    // chapter_three::data::datastructures_basic();
+    chapter_four::enum_data::enum_data_basics();
 }
