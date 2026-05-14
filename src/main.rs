@@ -1,4 +1,5 @@
-mod chapter_four;
+// mod chapter_four;
+mod intermediate;
 // mod chapter_three;
 // mod chapter_two;
 // mod database;
@@ -10,5 +11,7 @@ fn main() {
     // database::database::establish_db();
     // medium::functions::functions_basic();
     // chapter_three::data::datastructures_basic();
-    chapter_four::enum_data::enum_data_basics();
+    // chapter_four::enum_data::enum_data_basics();
+    // intermediate::generics::generics_basic();
+    intermediate::options::options_basics();
 }
