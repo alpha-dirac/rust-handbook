@@ -21,7 +21,7 @@ pub fn enumerations_basics() {
         weapon: Weapon::Claw(2, Size::Small),
     };
 
-    match ferris.species {
+    match plankton.species {
         Species::Crab => match ferris.weapon {
             Weapon::Claw(claws_size, size) => {
                 let size_description = match size {
