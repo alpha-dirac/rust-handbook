@@ -15,5 +15,6 @@ fn main() {
     // chapter_four::enum_data::enum_data_basics();
     // intermediate::generics::generics_basic();
     // intermediate::options::options_basics();
-    chapter_five::structures::structures_basics();
+    // chapter_five::structures::structures_basics();
+    chapter_five::enumerations::enumerations_basics();
 }

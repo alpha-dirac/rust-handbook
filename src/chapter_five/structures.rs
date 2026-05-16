@@ -13,6 +13,13 @@ pub fn structures_basics() {
         "{} is a {}. They have {} arms, {} legs, and a {}",
         ferris.name, ferris.animal_type, ferris.arms, ferris.legs, ferris.weapon
     );
+
+    let database = Database(20, String::from("Relational"), true);
+    let (rows, db_type, is_persistent) = (database.0, database.1, database.2);
+    println!(
+        "Rows: {} Database Type: {} Is Persistent: {}",
+        rows, db_type, is_persistent
+    );
 }
 
 fn say_hello(username: &str, message: &str) {
@@ -31,3 +38,6 @@ struct SeaCreature {
     legs: i32,
     weapon: String,
 }
+
+#[allow(dead_code)]
+struct Database(i32, String, bool);
